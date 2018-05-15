@@ -1,0 +1,16 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+---
+spring:
+  profiles: FundTransfer
+words: selfaccount, interbank, intrabank
+
+---
+spring:
+  profiles: BalanceCheck
+words: inUSD
