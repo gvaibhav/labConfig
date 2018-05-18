@@ -6,12 +6,3 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 passphrase : virtusa-ms-labs-AccountService
----
-spring:
-  profiles: FundTransfer
-words: selfaccount, interbank, intrabank
-
----
-spring:
-  profiles: BalanceCheck
-words: inUSD
