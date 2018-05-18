@@ -1,0 +1,4 @@
+spring:
+  profiles: primary
+server:
+  port: 8015  
