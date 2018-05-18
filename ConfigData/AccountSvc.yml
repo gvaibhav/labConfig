@@ -2,4 +2,5 @@ spring:
   profiles: default
 server:
   port: 8013  
-passphrase: virtusa-ms-labs-AccountService
+---
+passphrase : virtusa-ms-labs-AccountService
