@@ -5,4 +5,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
-passphrase : virtusa-ms-labs-AccountService
+passphrase : virtusa-ms-labs
