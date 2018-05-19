@@ -2,7 +2,10 @@
 server:
   port: 8017
 passphrase : virtusa-ms-labs-FundTransferBFF
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8020/eureka/
 ---
 # Zuul-proxied services can be found by calling /services/subject, /services/verb, etc.
 zuul:
