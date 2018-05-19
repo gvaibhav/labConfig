@@ -2,3 +2,9 @@
 server:
   port: 8017
 passphrase : virtusa-ms-labs-FundTransferBFF
+
+---
+# Zuul-proxied services can be found by calling /services/subject, /services/verb, etc.
+zuul:
+  prefix: /api
+  ignored-services: ACCOUNTSVC
