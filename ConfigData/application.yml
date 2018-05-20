@@ -5,4 +5,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
+logging:
+  file: C:\Temp\spring-boot-logs/net.vai.labs.log
 passphrase : virtusa-ms-labs
