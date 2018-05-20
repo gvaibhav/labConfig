@@ -7,4 +7,5 @@ eureka:
 
 logging:
   file: C:\Temp\spring-boot-logs/net.vai.labs.log
+  level:debug
 passphrase : virtusa-ms-labs
